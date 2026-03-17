@@ -21,13 +21,6 @@ The controller follows a standard 3-block synthesizable design pattern:
 - `tb_traffic_light.sv`: Testbench for simulation.
 - `.gitignore`: Configured to exclude Quartus-generated `db/` and `incremental_db/` files.
 
-## How to Simulate
-1. Open **Questa** (or ModelSim).
-2. Create a project and add `traffic_light.sv` and `tb_traffic_light.sv`.
-3. Compile all files.
-4. Run the simulation for `tb_traffic_light`.
-5. Observe the waveform to verify the 5-cycle delay in Yellow states.
-
 ## Tools Used
 - **Intel Quartus Prime:** Synthesis and FPGA development.
 - **Questa Intel Starter Edition:** Logic verification and simulation.
